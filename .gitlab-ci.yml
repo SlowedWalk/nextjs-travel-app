@@ -1,0 +1,12 @@
+stages:
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  image: node-alpine:latest
+  script:
+    - echo "Running tests"
+  tags:
+    - docker

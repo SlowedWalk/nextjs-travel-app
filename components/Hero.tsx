@@ -14,7 +14,7 @@ export const Hero = () => {
                     alt="camp"
                     width={50}
                     height={50}
-                    className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
+                    className='absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]'
                 />
                 <h1 className='bold-52 lg:bold-88'>Putuk Truno Camp Area</h1>
                 <p className='regular-16 mt-6 text-gray-30 xl:lax-w-[520px]'>
@@ -44,13 +44,13 @@ export const Hero = () => {
                     <Button
                         type='button'
                         title="Download App"
-                        varient='btn_green' />
+                        variant='btn_green' />
 
                     <Button
                         type='button'
                         title="How we work?"
                         icon='/play.svg'
-                        varient='btn_white_text'
+                        variant='btn_white_text'
                     />
                 </div>
             </div>
